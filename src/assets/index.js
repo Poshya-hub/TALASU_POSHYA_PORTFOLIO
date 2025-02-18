@@ -9,7 +9,7 @@ import close from "./close.svg";
 import rpa from './rpa.png'
 import kroll from './kroll.png'
 import webdev from './webdev.png'
-import brainwave from './brainwave.png'
+import brainwave from './Brainwave.png'
 import dashboard from './dashboard.png'
 import productivitylog from './productivitylog.png'
 import portfolio from './portfolio.png'
