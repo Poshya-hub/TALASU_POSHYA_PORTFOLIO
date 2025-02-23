@@ -13,7 +13,7 @@ import brainwave from './Brainwave.png'
 import dashboard from './dashboard.png'
 import productivitylog from './productivitylog.png'
 import portfolio from './portfolio.png'
-import aavishkaar from './Aavishkaar.png'
+import aavishkaar from './aavishkaar.png'
 
 import uipath from './tech/uipath.png'
 import powerautomate from './tech/powerautomate.png'
