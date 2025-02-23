@@ -10,6 +10,7 @@ import {
   Sparkles
 } from 'lucide-react';
 import { navLinks } from '../constants';
+import resume from '../assets/resume.pdf';
 
 const socialLinks = [
   {
@@ -66,6 +67,16 @@ const Footer = () => {
     }
   }, [text]);
 
+  const handleDownload = (e) => {
+    e.preventDefault();
+    const link = document.createElement('a');
+    link.href = resume;
+    link.download = "TALASU_POSHYA_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="bg-gradient-to-b from-gray-900 via-gray-800 to-black text-white relative overflow-hidden">
       {/* Animated background elements */}
@@ -110,9 +121,9 @@ const Footer = () => {
               </span>
             </div>
 
-            {/* Resume Download Button */}
             <a
-              href="/path-to-resume.pdf"
+              href={resume}
+              onClick={handleDownload}
               className="group relative inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 px-8 py-4 rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl mb-4"
             >
               <Download className="w-5 h-5 group-hover:animate-bounce" />

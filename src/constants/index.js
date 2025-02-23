@@ -37,7 +37,11 @@ import {
   dashboard,
   productivitylog,
   portfolio,
-  aavishkaar
+  aavishkaar,
+  c,
+  cpp,
+  java,
+  firebase
 } from "../assets";
 
 
@@ -85,8 +89,20 @@ const services = [
 
 const technologies = [
   {
-    name: "UIPath",
-    icon: uipath,
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "CPP",
+    icon: cpp,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "Power Automate",
@@ -132,30 +148,30 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "Material UI",
-  //   icon: mui,
-  // },
-  // {
-  //   name: "Framer Motion",
-  //   icon: framermotion,
-  // },
-  // {
-  //   name: "Ant Design",
-  //   icon: antdesign,
-  // },
-  // {
-  //   name: "SQL",
-  //   icon: sql,
-  // },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
-  // {
-  //   name: "Vercel",
-  //   icon: vercel,
-  // },
+  {
+    name: "Material UI",
+    icon: mui,
+  },
+  {
+    name: "Framer Motion",
+    icon: framermotion,
+  },
+  {
+    name: "Ant Design",
+    icon: antdesign,
+  },
+  {
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "Vercel",
+    icon: vercel,
+  },
 ];
 
 const experiences = [
